@@ -1,0 +1,10 @@
+.select-design{
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.select-design > option{
+    width: fit-content;
+}

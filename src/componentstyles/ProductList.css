@@ -1,0 +1,36 @@
+.card-flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-flex-container > div{
+    display: grid;
+    grid-template-rows: auto;
+}
+.card-flex-container > div > div{
+    margin: 20px;
+    width: 80%;
+    height: auto;
+    border: 1px solid seashell;
+    padding: 5%;
+    background-color: white;
+}
+
+.product-detail-link{
+    width: fit-content;
+    height: 30px;
+    padding: 2%;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.card-grid-equal{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    box-shadow: 1px 1px 1px 1px aliceblue;
+}
